@@ -1,0 +1,133 @@
+#PageBody {
+    margin-top: 0px!important;
+    background-color: #f1f1f1!important;
+}
+
+#itoolbar_bg, .toolbar-out {
+    background-color: #232C36!important;
+}
+
+#itoolbar a {
+    font-size: 13px!important;
+    background: none!important;
+    padding: 0px 10px!important;
+}
+
+#mainmenu{
+      margin-bottom: 20px!important;
+}
+
+#header {
+    height: auto!important;
+}
+
+#header img {
+    margin: 20px 0px!important;
+    max-width: 100%;
+}
+
+.navbar-collapse {
+    background-color: #fff;
+  }
+
+.nav>li>a:hover, .nav>li>a:focus {
+      background-color: #2E4171!important;
+      color: #fff!important;
+  }
+
+.nav>li>a {
+    transition: all 0.5s ease;
+  }
+
+#FooterContentArea {
+    background-color: #fff!important;
+    margin-top: 40px!important;
+    padding: 40px 0!important;
+}
+
+#homepage-footer p{
+  color:#2E4171!important;
+}
+
+#homepage-footer a {
+  color:#2E4171!important;
+  text-decoration:underline!important;
+  -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#homepage-footer a:hover, #homepage-footer a:focus, #homepage-footer a:active {
+  color:#232C36!important;
+}
+
+#homepage-footer .timeline-Widget {
+    color: #2E4171!important;
+}
+
+.hp-left-out .row{
+  margin:0 auto!important;
+}
+
+#hp-left{
+  background: #fff!important;
+  padding: 20px!important;
+  }
+
+  .irailhead, .irailcontent{
+    background: #2E4171!important;
+    color: #fff!important;
+    text-align:center;
+  }
+
+  .irailhead{
+    padding: 20px 10px;
+    font-size: 150%;
+    height:auto!important;
+    line-height:normal!important;
+  }
+
+  .irailcontent a{
+    color:#fff!important;
+  }
+
+  .irailcontent a:focus, .irailcontent a:hover {
+    color:#eaeaea!important;
+  }
+
+  #hp-main #login {
+    position: relative;
+    left: 8px;
+  }
+
+  #homepagefooter i{
+    margin-bottom:10px;
+  }
+
+  input[type=submit] {
+    background: #eaeaea!important;
+    padding: 7px 20px;
+    color: #595959;
+    border: none;
+    border-radius: 5px;
+  }
+
+  #icopyright {
+      background-color: #eaeaea!important;
+      padding: 10px!important;
+  }
+
+  #copyright-inner {
+    color: #595959!important;
+  }
+
+  #copyright-inner a{
+    color:#595959!important;
+  }
+
+/*sections to hide*/
+.bottom-left-out, .bottomcontentarea-out, .hp-center-out{
+  display:none!important;
+}
