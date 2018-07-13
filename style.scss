@@ -138,13 +138,14 @@
       -o-transition: all 0.3s ease;
       -ms-transition: all 0.3s ease;
       transition: all 0.3s ease;
-      padding: 15px 20px;
-    margin: 0px 5px;
+      padding: 10px 15px;
+      margin: 0px 5px;
+      border-radius: 3px;
   }
 
   #homepage-buttons .btn:hover, #homepage-buttons .btn:focus{
-    background:#fff!important;
-    color:#2E4171!important;
+    background:#595959!important;
+    color:#fff!important;
     text-decoration:underline;
   }
 
@@ -172,29 +173,27 @@
   }
 
   .hp-image-box {
-    width: 19%;
     display: inline-block;
-    height: 150px;
     overflow: hidden;
-    border: 1px solid #fafafa;
-    border-radius: 10px;
     position: relative;
-  }
+    margin: 0 auto;
+    padding: 0;
+    }
 
   .hp-image-box img {
-    max-height: 100px;
-    margin: 10px;
     max-width: 80%;
+    margin: 15px auto;
+    flex: auto;
   }
 
   .hp-image-text{
-    position: absolute;
     bottom: 0px;
     margin: 0 auto;
     width: 100%;
-    background: #37436f;
     padding: 10px;
-    color:#fff;
+    color: #595959;
+    font-size: 60%;
+text-transform: uppercase;
   }
 
 /*sections to hide*/
